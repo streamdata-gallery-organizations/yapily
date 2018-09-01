@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Yapily",
+	"description": "This is a repository of yapily APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/yapily.png",
+	"created": "2018-02-24",
+	"modified": "2018-09-01",
+	"url": "http://yapily.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Yapily",
+			"x-api-slug": "yapily",
+			"description": "Yapily is how people connect to banks, easily! We are an API Only technology provider whose mission is to enable innovative products to connect to banks, empowering a new generation of financial services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/yapily-logo.png",
+			"humanURL": "https://www.yapily.com",
+			"baseURL": "https://api.yapily.com:443//",
+			"tags": "Yapily",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/yapily/master/_listings/yapily/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Yapily",
+	"include": [
+		{
+			"name": "Yapily",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/yapily/master/_listings/yapily/apis.yaml"
+		}
+	]
+}
